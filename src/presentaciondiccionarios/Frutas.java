@@ -115,6 +115,7 @@ public class Frutas extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     Map<String, Integer> registroFrutas = new HashMap<>();
+    
     private void btnRegistarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistarActionPerformed
         String nombreFruta = txtNombre.getText();
         Integer cantidad = Integer.valueOf(txtCantidad.getText());
